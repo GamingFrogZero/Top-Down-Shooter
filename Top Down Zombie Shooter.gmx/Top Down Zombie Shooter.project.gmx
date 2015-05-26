@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprites name="Characters">
       <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_enemy</sprite>
     </sprites>
     <sprites name="Objects">
       <sprite>sprites\spr_bullet</sprite>
@@ -20,9 +21,14 @@
   <objects name="objects">
     <objects name="Characters">
       <object>objects\obj_player</object>
+      <object>objects\obj_enemy</object>
     </objects>
     <objects name="Objects">
       <object>objects\obj_bullet</object>
+    </objects>
+    <objects name="Controllers">
+      <object>objects\cont_main</object>
+      <object>objects\cont_enemyspawn</object>
     </objects>
   </objects>
   <rooms name="rooms">
